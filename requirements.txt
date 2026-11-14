@@ -1,0 +1,14 @@
+# Direct Python dependencies, pinned from a working CPU environment (November 2026).
+# Install torch FIRST, from the index that matches your machine
+# (it is intentionally not listed here so a CPU/CUDA wheel is not overwritten).
+# Demucs 4.1 does not import torchaudio. See the README for the pip commands.
+#
+#   CPU:  pip install torch==2.15.0 --index-url https://download.pytorch.org/whl/cpu
+#   CUDA: pip install torch==2.15.0 --index-url https://download.pytorch.org/whl/cu132
+#
+# System package required: ffmpeg (with the soxr resampler if possible)
+
+yt-dlp==2026.10.26
+demucs==4.1.0
+numpy==2.5.4
+soundfile==0.14.0

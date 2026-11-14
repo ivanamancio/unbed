@@ -1,0 +1,28 @@
+# Local config and login cookies
+.env
+.env.*
+!.env.example
+cookies.txt
+
+# Runtime data
+data/
+jobs/
+work/
+*.log
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.Python
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
